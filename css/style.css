@@ -2,40 +2,96 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-  /*  background-color: #283128 */ 
+    color: #f0ae55;
+
+
+
 }
 
+
+/*body {
+    background-image: linear-gradient(to right, #c1c161 0%, #e2e23d 0%, #d4d4b1 100%);
+
+
+
+}
+*/ 
 #wrapper {
-    
+
     width: 1050px;
     height: 550px;
-    background-image: linear-gradient(to right, #c1c161 0%, #e2e23d 0%, #d4d4b1 100%);
-    position: relative; 
-opacity: 0.8;
-    box-shadow: 18px 18px 18px -2px rgba(0,0,0,0.75);
-    top: 150px; 
-     
+    border-radius: 10px;
+    position: relative;
+
+    box-shadow: 14px 26px 64px -19px rgba(0,0,0,0.75);
+
+    top: 150px;
+    overflow: hidden;
+    background-color: #fdfdfd;
+
 }
 
 
 
-#info{
-   padding: 30px; 
-    float: left; 
-    width: 525px; 
+#info {
+    padding-top: 70px; 
+    float: left;
+    width: 650px;
+    
+    overflow: hidden;
+
+
+}
+
+.sections{padding: 20px; 
+    text-align: center; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    
+}
+
+#secondsection{text-align:left;
+width: 350px; }
+
+
+
+
+blockquote{text-align: center; 
+margin-top: 20px;  }
+
+
+
+#photo {
+    width: 400px;
+    height: 550px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+#img1 {
+    background-image: url(../img/panadda1.jpg);
+    width: 640px;
+    height: 960px;
+    position: absolute;
+    left: -220px;
+    top: -260px;
+
+
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+#socialemedia {
     text-align: center;
 }
 
-#photo{
-    width: 525px;  
-    float: left; 
-    
+.bttn {
+    display: inline-block
 }
-
-.clearfix{overflow: auto;  }
-
-#socialemedia{ 
-    text-align: center; 
-}
-
-div{display: inline-block}
