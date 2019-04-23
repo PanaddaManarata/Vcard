@@ -1,9 +1,41 @@
-*{margin: 0 auto; 
-padding: 0;
-box-sizing: border-box;}
-
-#wrapper{
-     
-    
-   
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  /*  background-color: #283128 */ 
 }
+
+#wrapper {
+    
+    width: 1050px;
+    height: 550px;
+    background-image: linear-gradient(to right, #c1c161 0%, #e2e23d 0%, #d4d4b1 100%);
+    position: relative; 
+opacity: 0.8;
+    box-shadow: 18px 18px 18px -2px rgba(0,0,0,0.75);
+    top: 150px; 
+     
+}
+
+
+
+#info{
+   padding: 30px; 
+    float: left; 
+    width: 525px; 
+    text-align: center;
+}
+
+#photo{
+    width: 525px;  
+    float: left; 
+    
+}
+
+.clearfix{overflow: auto;  }
+
+#socialemedia{ 
+    text-align: center; 
+}
+
+div{display: inline-block}
