@@ -1,0 +1,50 @@
+$font-h:'Playfair Display',
+serif;
+$color: #f0ae55;
+
+
+#wrapper {
+    width: 1050px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 14px 26px 64px -19px rgba(0, 0, 0, 0.75);
+    top: 150px;
+    overflow: hidden;
+    background-color: #fdfdfd;
+    line-height: 1.2 color: $color;
+
+    #firstsection {
+        h1 {
+            font-family: $font-h;
+        }
+
+        #title {}
+    }
+
+}
+
+
+
+#socialmedia {
+
+    a {
+        color: $color;
+        text-decoration: none;
+
+        .bttn {
+            display: inline-block;
+            padding-left: 20px;
+        }
+
+    }
+
+    a:hover {
+        color: #f09213;
+
+    }
+
+
+
+
+}

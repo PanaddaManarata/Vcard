@@ -1,0 +1,147 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Nunito', sans-serif; */
+
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #f0ae55;
+
+
+
+}
+
+
+body{background-color: #fffaf4;}
+
+
+
+#wrapper {
+
+    width: 1050px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 14px 26px 64px -19px rgba(0, 0, 0, 0.75);
+    top: 150px;
+    overflow: hidden;
+    background-color: #fdfdfd;
+    line-height: 1.2
+}
+
+h1 {
+    padding-top: 50px; 
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    font-size: 42px;
+}
+
+#info {
+   
+    float: left;
+    width: 650px;
+    overflow: hidden;
+    position: relative; 
+    height: 100%; 
+    
+
+
+}
+
+.sections {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+#firstsection {
+    line-height: 1.5;
+}
+
+#secondsection {
+    text-align: left;
+    width: 350px;
+}
+
+
+
+blockquote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+#thirdsection {
+    line-height: 2.5;
+}
+
+
+
+
+
+.clearfix {
+    clear: both;
+}
+
+
+#socialemedia {
+    text-align: center;
+}
+
+.bttn {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+#photo {
+    width: 400px;
+    height: 550px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+#img1 {
+    background-image: url(../img/panadda1.jpg);
+    width: 640px;
+    height: 960px;
+    position: absolute;
+    left: -220px;
+    top: -260px;
+    z-index: 1
+}
+
+/*#create {
+    width: 100px; 
+    height: 40px; 
+    position: absolute;
+    bottom: 20px; 
+    right: -5px; 
+    color: #ed9d30;
+    z-index: 2;
+    transform: rotate(-90deg);
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+}
+*/ 
+
+#create1{
+    width: 100px; 
+    height: 40px; 
+    position: absolute;
+    bottom: 0px; 
+    right: 47px; 
+    color: #ed9d30;
+    opacity: 0.5; 
+    z-index: 2;
+    transform: rotate(-90deg);
+    font-size: 150px;
+    font-family: 'Playfair Display', serif;
+    
+}
