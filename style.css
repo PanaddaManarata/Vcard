@@ -1,0 +1,129 @@
+/* line 17, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* line 23, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+body {
+    background-color: #fffaf4;
+}
+
+/* line 26, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#wrapper {
+    width: 1050px;
+    height: 550px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 14px 26px 64px -19px rgba(0, 0, 0, 0.75);
+    top: 150px;
+    overflow: hidden;
+    background-color: #fdfdfd;
+    line-height: 1.2;
+}
+
+/* line 39, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+h1 {
+    padding-top: 50px;
+    font-family: Playfair Display, serif;
+    letter-spacing: 3px;
+    font-size: 42px;
+}
+
+/* line 45, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#info {
+    float: left;
+    width: 650px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+/* line 52, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+.sections {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 18px;
+    font-family: Nunitso, sans-serif;
+    color: #f0ae55;
+}
+
+/* line 58, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#firstsection {
+    line-height: 1.5;
+}
+
+/* line 61, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#secondsection {
+    text-align: left;
+    width: 350px;
+}
+
+/* line 65, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+blockquote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* line 69, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#thirdsection {
+    line-height: 2.5;
+}
+
+/* line 72, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+.clearfix {
+    clear: both;
+}
+
+/* line 75, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#socialemedia {
+    text-align: center;
+}
+
+/* line 78, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+.bttn {
+    display: inline-block;
+    padding-left: 20px;
+    color: #f0ae55;
+}
+
+.bttn:hover{color:#f5991e;
+    
+}
+
+/* line 82, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#photo {
+    width: 400px;
+    height: 550px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+/* line 89, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#img1 {
+    background-image: url(../img/panadda1.jpg);
+    width: 640px;
+    height: 960px;
+    position: absolute;
+    left: -220px;
+    top: -260px;
+    z-index: 1;
+}
+
+/* line 98, /home/junior/Desktop/becode_projects/Vcard/style.scss */
+#create1 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 47px;
+    color: #ed9d30;
+    opacity: 0.5;
+    z-index: 2;
+    transform: rotate(-90deg);
+    font-size: 150px;
+    font-family: Playfair Display, serif;
+}
+
+/*# sourceMappingURL=style.css.map */
