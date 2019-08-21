@@ -1,24 +1,24 @@
+//colors
 $color_font: #f0ae55;
 $background_cl: #fffaf4;
 $color_wrapper: #fdfdfd;
 $color_create: #ed9d30;
-
-
+//fonts
 $font_1: Playfair Display;
 $font_style1: serif;
-
 $font_2: Nunito;
 $font_style2: sans-serif;
+
 $bs: box-sizing;
 
 $url_0: url(../img/panadda1.jpg);
 
 * {
     margin: 0 auto;
-    @include: $bs;
+    @include bs;
 }
 
-body {
+body{
     background-color: $background_cl;
 }
 
@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     position: relative;
     box-shadow: 14px 26px 64px -19px black;
-    top: 150px;
+    top: 50px;
     overflow: hidden;
     background-color: $color_wrapper;
     line-height: 1.2;
@@ -84,20 +84,13 @@ blockquote {
 #socialemedia {
     text-align: center;
     color: red;
-
     .bttn {
         display: inline-block;
         padding-left: 20px;
-
-
     }
-
-    bttn:hover {
+    .bttn:hover {
         color: #f5991e;
     }
-
-
-
 
 }
 
