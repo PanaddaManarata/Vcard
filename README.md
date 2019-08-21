@@ -22,4 +22,4 @@ link normal css file in HTML
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-![screenshot vcard](.img/screenshot_vcard.png)
+![screenshot vcard](.img/screenshotvcard.PNG)
