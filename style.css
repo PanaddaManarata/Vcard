@@ -71,12 +71,12 @@ blockquote {
 
 #socialemedia {
   text-align: center;
-  color: red;
 }
 
 #socialemedia .bttn {
   display: inline-block;
   padding-left: 20px;
+  color: #f0ae55;
 }
 
 #socialemedia .bttn:hover {
