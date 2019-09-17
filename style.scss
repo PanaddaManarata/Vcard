@@ -14,9 +14,6 @@ $font_1: 'Playfair Display', serif;
 $font_2: 'Nunito', sans-serif;
 
 
-
-$url_0: url(../img/panadda1.jpg);
-
 * {
     margin: 0 auto;
     box-sizing: border-box; 
@@ -109,7 +106,7 @@ blockquote {
 }
 
 #img1 {
-    background-image: url($url_0);
+    background-image: url(/img/panadda1.jpg);
     width: 640px;
     height: 960px;
     position: absolute;
