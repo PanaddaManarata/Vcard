@@ -17,7 +17,7 @@ body {
   position: relative;
   -webkit-box-shadow: 14px 26px 64px -19px black;
           box-shadow: 14px 26px 64px -19px black;
-  top: 150px;
+  top: 50px;
   overflow: hidden;
   background-color: #fdfdfd;
   line-height: 1.2;
@@ -79,7 +79,7 @@ blockquote {
   padding-left: 20px;
 }
 
-#socialemedia bttn:hover {
+#socialemedia .bttn:hover {
   color: #f5991e;
 }
 
