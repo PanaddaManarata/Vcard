@@ -1,21 +1,25 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Nunito', sans-serif; */
+
+
 $color_font: #f0ae55;
 $background_cl: #fffaf4;
 $color_wrapper: #fdfdfd;
 $color_create: #ed9d30;
 
 
-$font_1: Playfair Display;
-$font_style1: serif;
+$font_1: 'Playfair Display', serif;
 
-$font_2: Nunito;
-$font_style2: sans-serif;
-$bs: box-sizing;
+
+$font_2: 'Nunito', sans-serif;
+
+
 
 $url_0: url(../img/panadda1.jpg);
 
 * {
     margin: 0 auto;
-    @include: $bs;
+    box-sizing: border-box; 
 }
 
 body {
@@ -37,7 +41,7 @@ body {
 
 h1 {
     padding-top: 50px;
-    font-family: $font_1, $font_style1;
+    font-family: $font_1; 
     letter-spacing: 3px;
     font-size: 42px;
 }
@@ -55,7 +59,7 @@ h1 {
     text-align: center;
     padding-top: 60px;
     font-size: 18px;
-    font-family: $font_2, $font_style2;
+    font-family: $font_2;
     color: $color_font;
 }
 
@@ -112,7 +116,7 @@ blockquote {
 }
 
 #img1 {
-    background-image: $url_0;
+    background-image: url($url_0);
     width: 640px;
     height: 960px;
     position: absolute;
@@ -132,5 +136,5 @@ blockquote {
     z-index: 2;
     transform: rotate(-90deg);
     font-size: 150px;
-    font-family: $font_0, $font_1;
+    font-family: $font_1;
 }
